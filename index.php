@@ -2,8 +2,9 @@
 <head><title>Swagger2Slate</title></head>
 <body>
 <h1>Swagger2Slate Demo</h1>
-</body>
-</html>
+<?php 
+include __DIR__ . '/specs/petstore.json';
+?>
 <?php
 
 /** @var \Composer\Autoload\ClassLoader $autoLoader */
@@ -24,4 +25,5 @@ $app->command('convert inputFile [-o|--outputFile=]', \m8rge\ConvertCommand::cla
     ]);
 $app->run();
 ?>
-
+</body>
+</html>
