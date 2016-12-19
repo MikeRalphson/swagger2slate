@@ -1,7 +1,7 @@
 <html>
-<head><title>Test</title></head>
+<head><title>Swagger2Slate</title></head>
 <body>
-Test
+<h1>Swagger2Slate Demo</h1>
 </body>
 </html>
 <?php
