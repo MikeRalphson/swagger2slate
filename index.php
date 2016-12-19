@@ -1,3 +1,9 @@
+<html>
+<head><title>Test</title></head>
+<body>
+Test
+</body>
+</html>
 <?php
 
 /** @var \Composer\Autoload\ClassLoader $autoLoader */
@@ -19,9 +25,3 @@ $app->command('convert inputFile [-o|--outputFile=]', \m8rge\ConvertCommand::cla
 $app->run();
 ?>
 
-<html>
-<head><title>Test</title></head>
-<body>
-Test
-</body>
-</html>
